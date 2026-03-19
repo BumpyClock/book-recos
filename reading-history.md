@@ -1,0 +1,100 @@
+# Reading History
+
+- **A Closed and Common Orbit (Wayfarers, #2)** by Becky Chambers (2026/03/16) — ⭐⭐⭐⭐⭐
+- **The Long Way to a Small, Angry Planet (Wayfarers, #1)** by Becky Chambers (2026/03/12) — ⭐⭐⭐⭐⭐
+- **Some Desperate Glory** by Emily  Tesh (2026/02/09)
+- **Cibola Burn (Expanse, #4)** by James S.A. Corey (2025/12/25) — ⭐⭐⭐⭐⭐
+- **All These Worlds (Bobiverse, #3)** by Dennis E. Taylor (2025/11/13) — ⭐⭐⭐⭐⭐
+- **We Are Legion (We Are Bob) (Bobiverse, #1)** by Dennis E. Taylor (2025/11/09)
+- **Heaven's River (Bobiverse, #4)** by Dennis E. Taylor (2025/10/25) — ⭐⭐⭐⭐⭐
+- **Fugitive Telemetry (The Murderbot Diaries, #6)** by Martha Wells (2025/09/27) — ⭐⭐⭐⭐⭐
+- **Network Effect (The Murderbot Diaries, #5)** by Martha Wells (2025/09/24)
+- **Exit Strategy (The Murderbot Diaries, #4)** by Martha Wells (2025/09/24) — ⭐⭐⭐⭐⭐
+- **Not Till We Are Lost (Bobiverse #5)** by Dennis E. Taylor (2025/06/05) — ⭐⭐⭐⭐⭐
+- **Black Woods, Blue Sky** by Eowyn Ivey (2025/03/30)
+- **All Fours** by Miranda July (2025/02/16)
+- **The Covenant of Water** by Abraham   Verghese (2025/02/12) — ⭐⭐⭐⭐⭐
+- **Chimera (Parasitology, #3)** by Mira Grant (2024/10/11) — ⭐⭐⭐⭐
+- **Symbiont (Parasitology, #2)** by Mira Grant (2024/10/10)
+- **Parasite (Parasitology, #1)** by Mira Grant (2024/10/10) — ⭐⭐⭐⭐⭐
+- **The Heartfulness Way: Heart-Based Meditations for Spiritual Transformation** by Kamlesh D. Patel (2024/05/01)
+- **The Three-Body Problem (Remembrance of Earth’s Past, #1)** by Liu Cixin (2024/02/15) — ⭐⭐⭐⭐⭐
+- **Rogue Protocol (The Murderbot Diaries, #3)** by Martha Wells (2023/02/09) — ⭐⭐⭐⭐⭐
+- **Artificial Condition (The Murderbot Diaries, #2)** by Martha Wells (2022/12/18) — ⭐⭐⭐⭐⭐
+- **All Systems Red (The Murderbot Diaries, #1)** by Martha Wells (2022/12/14) — ⭐⭐⭐⭐⭐
+- **How Not to Die: Discover the Foods Scientifically Proven to Prevent and Reverse Disease** by Michael Greger (2022/10/31)
+- **Abaddon's Gate (Expanse, #3)** by James S.A. Corey (2022/04/29) — ⭐⭐⭐⭐⭐
+- **Caliban's War (Expanse, #2)** by James S.A. Corey (2022/04/27) — ⭐⭐⭐⭐⭐
+- **Leviathan Wakes (The Expanse, #1)** by James S.A. Corey (2022/01/16) — ⭐⭐⭐⭐⭐
+- **Day Trading Stocks Ultimate Guide: From Beginner to Advanced in weeks! Best Short term Strategies and Setups to Profit in Single Shares. Fundamental & Technical Analysis Explained** by Ryan Miles (2020/07/21)
+- **The Senior Source: A Guide to Understanding Safe, No Risk Investments** by John Sheerin (2020/06/13)
+- **A Simple Guide to the Immigration Laws of the United States: What you NEED to know when you come to America** by Mayanti (Savie) Boodoo Jarvis (2020/01/06)
+- **Quick Guide to Understanding Medicare, Medicaid and other payer sources** by Angil Tarach-Ritchey (2019/12/23)
+- **Saga, Volume 1** by Brian K. Vaughan (2019/03/08)
+- **Silvertongue (Remnants of Magic, #1)** by Casey  White (2019/03/08)
+- **पानिपत [Panipat]** by Vishwas Patil (2018/06/16)
+- **A Higher Loyalty: Truth, Lies, and Leadership** by James B. Comey (2018/05/21) — ⭐⭐⭐⭐⭐
+- **Infinity Born** by Douglas E. Richards (2017/12/14) — ⭐⭐⭐⭐
+- **Artemis** by Andy Weir (2017/12/09) — ⭐⭐⭐
+- **The Atlantis World (The Origin Mystery #3)** by A.G. Riddle (2017/12/07) — ⭐⭐
+- **The Atlantis Plague (The Origin Mystery, #2)** by A.G. Riddle (2017/12/06) — ⭐⭐⭐
+- **The Bone Season (The Bone Season, #1)** by Samantha Shannon (2013/10/20) — ⭐
+- **Things I've Learned from Women Who've Dumped Me** by Ben Karlin (2012/08/27) — ⭐⭐⭐⭐⭐
+- **The Perks of Being a Wallflower** by Stephen Chbosky (2012/08/26) — ⭐⭐⭐⭐
+- **A Clash of Kings  (A Song of Ice and Fire, #2)** by George R.R. Martin (2012/06/12) — ⭐⭐⭐⭐⭐
+- **High Fidelity** by Nick Hornby (2012/06/11) — ⭐⭐⭐⭐
+- **Man Made: A Stupid Quest for Masculinity** by Joel Stein (2012/06/09) — ⭐⭐⭐⭐⭐
+- **World War Z: An Oral History of the Zombie War** by Max Brooks (2012/05/31) — ⭐⭐⭐⭐
+- **This is a Book** by Demetri Martin (2012/03/28)
+- **Cool, Calm & Contentious** by Merrill Markoe (2012/03/28)
+- **Ender’s Game (Ender's Saga, #1)** by Orson Scott Card (2012/01/18) — ⭐⭐⭐⭐⭐
+- **Justice: What's the Right Thing to Do?** by Michael J. Sandel (2011/12/01) — ⭐⭐⭐⭐⭐
+- **A Game of Thrones (A Song of Ice and Fire, #1)** by George R.R. Martin (2011/12/01) — ⭐⭐⭐⭐⭐
+- **Crisis on Infinite Earths** by Marv Wolfman (2011/12/01)
+- **Naïve. Super** by Erlend Loe (2011/08/01)
+- **Super Sad True Love Story** by Gary Shteyngart (2011/07/05) — ⭐⭐⭐⭐⭐
+- **Bossypants** by Tina Fey (2011/05/16)
+- **I Am America (And So Can You!)** by Stephen Colbert (2011/04/20) — ⭐⭐⭐⭐
+- **The Inscrutable Americans** by Anurag Mathur (2011/04/10) — ⭐⭐⭐⭐
+- **India Calling: An Intimate Portrait of a Nation's Remaking** by Anand Giridharadas (2011/04/05) — ⭐⭐⭐⭐⭐
+- **The Hunger Games (The Hunger Games, #1)** by Suzanne Collins (2011/02/27) — ⭐⭐⭐⭐⭐
+- **Coming Back STRONGER: Unleashing the Hidden Power of Adversity** by Drew Brees (2011/01/01) — ⭐⭐⭐⭐
+- **Room** by Emma Donoghue (2010/12/27) — ⭐⭐⭐⭐⭐
+- **Sh*t My Dad Says** by Justin Halpern (2010/11/03) — ⭐⭐⭐⭐⭐
+- **Nemesis Games (The Expanse Book 5)** by James S.A. Corey
+- **Redshirts** by John Scalzi
+- **A Drop of Corruption (Shadow of the Leviathan, #2)** by Robert Jackson Bennett — ⭐⭐⭐⭐⭐
+- **Intermezzo** by Sally Rooney
+- **The City & The City** by China Miéville
+- **The Tainted Cup (Shadow of the Leviathan #1)** by Robert Jackson Bennett — ⭐⭐⭐⭐⭐
+- **The Ministry of Time** by Kaliane Bradley — ⭐⭐⭐⭐⭐
+- **Kitty Cat Kill Sat: A Feline Space Adventure** by Argus .
+- **System Collapse (The Murderbot Diaries, #7)** by Martha Wells
+- **Before They Told You You Weren’t Enough: You Were Born Whole. Then The World Made You Forget. This Book Helps You Remember.** by VIKAS KAUSHIK
+- **The Empusium: A Health Resort Horror Story** by Olga Tokarczuk
+- **Dragon Teeth** by Michael Crichton
+- **Will** by Will  Smith
+- **Invincible Compendium Vol. 1** by Robert Kirkman
+- **Start with Why: How Great Leaders Inspire Everyone to Take Action** by Simon Sinek
+- **Semiosis (Semiosis Duology, #1)** by Sue Burke
+- **Unbelievable: My Front-Row Seat to the Craziest Campaign in American History** by Katy Tur — ⭐⭐⭐⭐⭐
+- **The Atlantis Gene (The Origin Mystery, #1)** by A.G. Riddle — ⭐⭐⭐⭐
+- **First Shift: Legacy (Shift, #1)** by Hugh Howey — ⭐⭐⭐⭐⭐
+- **The Martian** by Andy Weir — ⭐⭐⭐⭐⭐
+- **The Girl With the Dragon Tattoo (Millennium, #1)** by Stieg Larsson — ⭐⭐⭐⭐⭐
+- **Angels & Demons (Robert Langdon, #1)** by Dan    Brown — ⭐⭐⭐
+- **Dust (Silo, #3)** by Hugh Howey
+- **The Lover's Dictionary** by David Levithan — ⭐⭐⭐⭐⭐
+- **The Happiness Hypothesis: Finding Modern Truth in Ancient Wisdom** by Jonathan Haidt
+- **The Road** by Cormac McCarthy — ⭐⭐⭐⭐
+- **Catching Fire (The Hunger Games, #2)** by Suzanne Collins — ⭐⭐⭐⭐⭐
+- **A Quiver Full of Arrows** by Jeffrey Archer — ⭐⭐⭐⭐
+- **Kane & Abel (Kane & Abel, #1)** by Jeffrey Archer — ⭐⭐⭐⭐⭐
+- **The Count of Monte Cristo** by Alexandre Dumas — ⭐⭐⭐⭐
+- **Obama's Wars** by Bob Woodward — ⭐⭐⭐⭐⭐
+- **Orbiting the Giant Hairball: A Corporate Fool's Guide to Surviving with Grace** by Gordon MacKenzie — ⭐⭐⭐⭐⭐
+- **Half Empty** by David Rakoff — ⭐⭐⭐⭐
+- **The Bourne Identity (Jason Bourne, #1)** by Robert Ludlum — ⭐⭐⭐⭐⭐
+- **The Da Vinci Code (Robert Langdon, #2)** by Dan    Brown — ⭐⭐⭐⭐
+- **A Tale of Two Cities** by Charles Dickens — ⭐⭐⭐⭐
+- **Alien Clay** by Adrian Tchaikovsky

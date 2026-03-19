@@ -1,0 +1,59 @@
+# To Read
+
+- **The Sky Beneath Us** by Fiona Valpy
+- **A Very Punchable Face** by Colin Jost
+- **The PayPal Wars: Battles with Ebay, the Media, the Mafia, and the Rest of Planet Earth** by Eric M. Jackson
+- **Inglorious Empire: What the British Did to India** by Shashi Tharoor
+- **Slow Horses (Slough House, #1)** by Mick Herron
+- **Shōgun, Part 1 (Asian Saga, #1)** by James Clavell
+- **The Dark Forest (Remembrance of Earth’s Past, #2)** by Liu Cixin
+- **Pandora's Star (Commonwealth Saga #1)** by Peter F. Hamilton
+- **Fahrenheit 451** by Ray Bradbury
+- **Cribsheet: A Data-Driven Guide to Better, More Relaxed Parenting, from Birth to Preschool (The ParentData Book 2)** by Emily Oster
+- **The Solar War (The Long Winter, #2)** by A.G. Riddle
+- **The Dawn of Everything: A New History of Humanity** by David Graeber
+- **Total Leadership: Be a Better Leader, Have a Richer Life (With New Preface)** by Stewart D. Friedman
+- **Designing Your Life: How to Build a Well-Lived, Joyful Life** by Bill Burnett
+- **Springboard: Launching Your Personal Search for Success** by G. Richard Shell
+- **The Last Wish (The Witcher, #0.5)** by Andrzej Sapkowski
+- **Leading Teams: Setting the Stage for Great Performances** by J. Richard Hackman
+- **The Diabetes Code: Prevent and Reverse Type 2 Diabetes Naturally** by Jason Fung
+- **What If? 10th Anniversary Edition: Serious Scientific Answers to Absurd Hypothetical Questions** by Randall Munroe
+- **Dark Money: The Hidden History of the Billionaires Behind the Rise of the Radical Right** by Jane Mayer
+- **Ascetic Games: Sadhus, Akharas and the Making of the Hindu Vote** by Dhirendra K. Jha
+- **The Sparrow (The Sparrow, #1)** by Mary Doria Russell
+- **Nightfall** by Isaac Asimov
+- **Deep Work: Rules for Focused Success in a Distracted World** by Cal Newport
+- **Rendezvous with Rama (Rama, #1)** by Arthur C. Clarke
+- **Civil War II** by Brian Michael Bendis
+- **Children of Time (Children of Time, #1)** by Adrian Tchaikovsky
+- **The God of Small Things** by Arundhati Roy
+- **I, Robot** by Isaac Asimov
+- **Foundation (Foundation, #1)** by Isaac Asimov
+- **Shantaram** by Gregory David Roberts
+- **Earth (The Book): A Visitor's Guide to the Human Race** by Jon   Stewart
+- **Thirteen Reasons Why** by Jay Asher
+- **2030: The Real Story of What Happens to America** by Albert Brooks
+- **Sacred Games** by Vikram Chandra
+- **The Satanic Verses** by Salman Rushdie
+- **The Dark Fields (Limitless, #1)** by Alan Glynn
+- **The Five People You Meet in Heaven** by Mitch Albom
+- **Manufacturing Consent: The Political Economy of the Mass Media** by Edward S. Herman
+- **The Psychopath Test: A Journey Through the Madness Industry** by Jon Ronson
+- **The Inmates Are Running the Asylum: Why High Tech Products Drive Us Crazy and How to Restore the Sanity** by Alan Cooper
+- **The Elements of User Experience: User-Centered Design for the Web** by Jesse James Garrett
+- **The Pun Also Rises: How the Humble Pun Revolutionized Language, Changed History, and Made Wordplay More Than Some Antics** by John Pollack
+- **Interaction Design: Beyond Human-Computer Interaction** by Yvonne Rogers
+- **Sketching User Experiences: The Workbook** by Saul Greenberg
+- **The Gifts of Imperfection** by Brené Brown
+- **What I'd Say to the Martians and Other Veiled Threats** by Jack Handey
+- **Gut Feelings: The Intelligence of the Unconscious** by Gerd Gigerenzer
+- **Portfolios of the Poor: How the World's Poor Live on $2 a Day** by Daryl Collins
+- **Designing with the Mind in Mind: Simple Guide to Understanding User Interface Design Rules** by Jeff                                                 Johnson
+- **Ambani & Sons** by Hamish McDonald
+- **The Polyester Prince: The Rise of Dhirubhai Ambani** by Hamish McDonald
+- **Reality is Broken: Why Games Make Us Better and How They Can Change the World** by Jane McGonigal
+- **HTML5: Up and Running: Dive into the Future of Web Development** by Mark Pilgrim
+- **The Reapers are the Angels (Reapers, #1)** by Alden Bell
+- **To Kill a Mockingbird** by Harper Lee
+- **Where Good Ideas Come From: The Natural History of Innovation** by Steven Johnson

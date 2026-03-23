@@ -44,6 +44,36 @@ interface HoldResult {
   placed: string;
 }
 
+type Tokens = { accessToken: string; sessionId: string };
+
+function parseErrorBody(bodyText: string): { message?: string; classification?: string } | null {
+  try {
+    const parsed = JSON.parse(bodyText);
+    return parsed?.error ?? null;
+  } catch {
+    return null;
+  }
+}
+
+function formatApiError(status: number, bodyText: string): string {
+  const error = parseErrorBody(bodyText);
+
+  if (
+    status === 401 &&
+    (error?.classification === "invalid_token" ||
+      error?.message?.includes("Authentication object was not found in the SecurityContext"))
+  ) {
+    return "KCLS auth expired or invalid; run `bun refresh-kcls-tokens.ts` to refresh `.env`, or update `KCLS_ACCESS_TOKEN` and `KCLS_SESSION_ID` manually";
+  }
+
+  if (error?.message) {
+    return `KCLS request failed (${status}): ${error.message}`;
+  }
+
+  const detail = bodyText.trim();
+  return detail ? `KCLS request failed (${status}): ${detail}` : `KCLS request failed (${status})`;
+}
+
 function getTokens(): { accessToken: string; sessionId: string } | null {
   const accessToken = process.env.KCLS_ACCESS_TOKEN;
   const sessionId = process.env.KCLS_SESSION_ID;
@@ -51,6 +81,7 @@ function getTokens(): { accessToken: string; sessionId: string } | null {
   if (!accessToken || !sessionId) {
     console.error(
       "Set KCLS_ACCESS_TOKEN and KCLS_SESSION_ID env vars.\n" +
+        "Fast path: run `bun refresh-kcls-tokens.ts`.\n" +
         "Chrome DevTools > Application > Cookies > bibliocommons.com:\n" +
         "  bc_access_token → KCLS_ACCESS_TOKEN\n" +
         "  session_id      → KCLS_SESSION_ID"
@@ -60,15 +91,7 @@ function getTokens(): { accessToken: string; sessionId: string } | null {
   return { accessToken, sessionId };
 }
 
-function authHeaders(accessToken: string, sessionId: string): Record<string, string> {
-  return {
-    "Content-Type": "application/json",
-    "x-access-token": accessToken,
-    "x-session-id": sessionId,
-  };
-}
-
-async function apiRequest(method: string, url: string, body?: any, tokens?: { accessToken: string; sessionId: string }) {
+async function apiRequest(method: string, url: string, body?: any, tokens?: Tokens) {
   const headers: Record<string, string> = { "Content-Type": "application/json" };
   if (tokens) {
     headers["x-access-token"] = tokens.accessToken;
@@ -82,9 +105,11 @@ async function apiRequest(method: string, url: string, body?: any, tokens?: { ac
   });
 
   if (!resp.ok) {
-    throw new Error(`${resp.status} ${await resp.text()}`);
+    throw new Error(formatApiError(resp.status, await resp.text()));
   }
-  return resp.json();
+
+  const text = await resp.text();
+  return text ? JSON.parse(text) : null;
 }
 
 async function search(query: string, fmtFilter?: string): Promise<SearchResult[]> {
@@ -155,7 +180,7 @@ async function placeHold(metadataId: string, materialType = "PHYSICAL"): Promise
       };
     }
   } catch (e: any) {
-    console.error("Hold failed:", e.message);
+    console.error(e instanceof Error ? e.message : String(e));
   }
   return null;
 }
@@ -165,12 +190,10 @@ async function cancelHold(holdId: string): Promise<boolean> {
   if (!tokens) return false;
 
   try {
-    const resp = await fetch(`${GATEWAY}/holds/${holdId}?locale=en-US`, {
-      method: "DELETE",
-      headers: authHeaders(tokens.accessToken, tokens.sessionId),
-    });
-    return resp.ok;
-  } catch {
+    await apiRequest("DELETE", `${GATEWAY}/holds/${holdId}?locale=en-US`, undefined, tokens);
+    return true;
+  } catch (e: any) {
+    console.error(e instanceof Error ? e.message : String(e));
     return false;
   }
 }
@@ -310,62 +333,23 @@ function printResults(results: SearchResult[], query: string) {
   }
 }
 
-// --- CLI ---
+async function main() {
+  const [cmd, ...rest] = process.argv.slice(2);
 
-const [cmd, ...rest] = process.argv.slice(2);
-
-switch (cmd) {
-  case "search": {
-    const fmtIdx = rest.indexOf("--format");
-    const fmt = fmtIdx >= 0 ? rest[fmtIdx + 1] : undefined;
-    const query = fmtIdx >= 0
-      ? rest.filter((_, i) => i !== fmtIdx && i !== fmtIdx + 1).join(" ")
-      : rest.join(" ");
-    const results = await search(query, fmt);
-    printResults(results, query);
-    break;
-  }
-
-  case "hold": {
-    // Legacy: bun kcls.ts hold S82C2258007
-    const metadataId = rest[0];
-    const fmtIdx = rest.indexOf("--format");
-    const material = fmtIdx >= 0 ? rest[fmtIdx + 1] : "PHYSICAL";
-    const result = await placeHold(metadataId, material);
-    if (result) {
-      console.log(`Hold placed! Position: #${result.position}, Pickup: ${result.pickup}`);
-    } else {
-      console.log("Failed to place hold.");
+  switch (cmd) {
+    case "search": {
+      const fmtIdx = rest.indexOf("--format");
+      const fmt = fmtIdx >= 0 ? rest[fmtIdx + 1] : undefined;
+      const query = fmtIdx >= 0
+        ? rest.filter((_, i) => i !== fmtIdx && i !== fmtIdx + 1).join(" ")
+        : rest.join(" ");
+      const results = await search(query, fmt);
+      printResults(results, query);
+      break;
     }
-    break;
-  }
 
-  case "cancel": {
-    // Legacy: bun kcls.ts cancel <hold_id>
-    const ok = await cancelHold(rest[0]);
-    console.log(ok ? "Hold removed." : "Failed to remove hold.");
-    break;
-  }
-
-  case "batch": {
-    for (const book of rest) {
-      const results = await search(book);
-      printResults(results, book);
-    }
-    break;
-  }
-
-  case "checkouts": {
-    const checkouts = await getCheckouts();
-    printCheckouts(checkouts);
-    break;
-  }
-
-  case "holds": {
-    const sub = rest[0];
-    if (sub === "add") {
-      const metadataId = rest[1];
-      if (!metadataId) { console.log("Usage: bun kcls.ts holds add <metadata_id> [--format PHYSICAL|DIGITAL]"); break; }
+    case "hold": {
+      const metadataId = rest[0];
       const fmtIdx = rest.indexOf("--format");
       const material = fmtIdx >= 0 ? rest[fmtIdx + 1] : "PHYSICAL";
       const result = await placeHold(metadataId, material);
@@ -374,27 +358,63 @@ switch (cmd) {
       } else {
         console.log("Failed to place hold.");
       }
-    } else if (sub === "remove") {
-      const holdId = rest[1];
-      if (!holdId) { console.log("Usage: bun kcls.ts holds remove <hold_id>\nRun 'bun kcls.ts holds' to see hold IDs."); break; }
-      const ok = await cancelHold(holdId);
-      console.log(ok ? "Hold removed." : "Failed to remove hold.");
-    } else {
-      const holds = await getHolds();
-      printHolds(holds);
+      break;
     }
-    break;
-  }
 
-  case "status": {
-    const [checkouts, holds] = await Promise.all([getCheckouts(), getHolds()]);
-    printCheckouts(checkouts);
-    printHolds(holds);
-    break;
-  }
+    case "cancel": {
+      const ok = await cancelHold(rest[0]);
+      console.log(ok ? "Hold removed." : "Failed to remove hold.");
+      break;
+    }
 
-  default:
-    console.log(`KCLS Library Catalog CLI
+    case "batch": {
+      for (const book of rest) {
+        const results = await search(book);
+        printResults(results, book);
+      }
+      break;
+    }
+
+    case "checkouts": {
+      const checkouts = await getCheckouts();
+      printCheckouts(checkouts);
+      break;
+    }
+
+    case "holds": {
+      const sub = rest[0];
+      if (sub === "add") {
+        const metadataId = rest[1];
+        if (!metadataId) { console.log("Usage: bun kcls.ts holds add <metadata_id> [--format PHYSICAL|DIGITAL]"); break; }
+        const fmtIdx = rest.indexOf("--format");
+        const material = fmtIdx >= 0 ? rest[fmtIdx + 1] : "PHYSICAL";
+        const result = await placeHold(metadataId, material);
+        if (result) {
+          console.log(`Hold placed! Position: #${result.position}, Pickup: ${result.pickup}`);
+        } else {
+          console.log("Failed to place hold.");
+        }
+      } else if (sub === "remove") {
+        const holdId = rest[1];
+        if (!holdId) { console.log("Usage: bun kcls.ts holds remove <hold_id>\nRun 'bun kcls.ts holds' to see hold IDs."); break; }
+        const ok = await cancelHold(holdId);
+        console.log(ok ? "Hold removed." : "Failed to remove hold.");
+      } else {
+        const holds = await getHolds();
+        printHolds(holds);
+      }
+      break;
+    }
+
+    case "status": {
+      const [checkouts, holds] = await Promise.all([getCheckouts(), getHolds()]);
+      printCheckouts(checkouts);
+      printHolds(holds);
+      break;
+    }
+
+    default:
+      console.log(`KCLS Library Catalog CLI
 
 Usage:
   bun kcls.ts search "Book Title"                   Search catalog
@@ -406,4 +426,10 @@ Usage:
   bun kcls.ts checkouts                              List checked out books
   bun kcls.ts status                                 Both checkouts + holds
   bun kcls.ts batch "Book 1" "Book 2"                Search multiple books`);
+  }
 }
+
+await main().catch((e: unknown) => {
+  console.error(e instanceof Error ? e.message : String(e));
+  process.exit(1);
+});

@@ -88,6 +88,10 @@ For each recommendation, provide:
 - Series potential (user loves to binge)
 - Emotional depth alongside plot momentum
 
+## Playwriter MCP Dependency
+
+Several workflows (token refresh, browser-based auth) require the **Playwriter MCP server**. If you attempt a task that needs Playwriter and it is not configured, **read `SETUP_PLAYWRITER_MCP.md`** and follow the setup instructions before proceeding.
+
 ## Library Catalog Scripts
 
 Four CLI scripts are available for searching, placing holds, and managing bookshelves.

@@ -2,7 +2,7 @@
 
 - **A Closed and Common Orbit (Wayfarers, #2)** by Becky Chambers (2026/03/16) — ⭐⭐⭐⭐⭐
 - **The Long Way to a Small, Angry Planet (Wayfarers, #1)** by Becky Chambers (2026/03/12) — ⭐⭐⭐⭐⭐
-- **Some Desperate Glory** by Emily  Tesh (2026/02/09)
+- **Some Desperate Glory** by Emily  Tesh (2026/02/09) — ⭐⭐⭐⭐⭐
 - **Cibola Burn (Expanse, #4)** by James S.A. Corey (2025/12/25) — ⭐⭐⭐⭐⭐
 - **All These Worlds (Bobiverse, #3)** by Dennis E. Taylor (2025/11/13) — ⭐⭐⭐⭐⭐
 - **We Are Legion (We Are Bob) (Bobiverse, #1)** by Dennis E. Taylor (2025/11/09)
@@ -62,14 +62,14 @@
 - **Room** by Emma Donoghue (2010/12/27) — ⭐⭐⭐⭐⭐
 - **Sh*t My Dad Says** by Justin Halpern (2010/11/03) — ⭐⭐⭐⭐⭐
 - **Nemesis Games (The Expanse Book 5)** by James S.A. Corey
-- **Redshirts** by John Scalzi
+- **Redshirts** by John Scalzi — ⭐⭐⭐⭐
 - **A Drop of Corruption (Shadow of the Leviathan, #2)** by Robert Jackson Bennett — ⭐⭐⭐⭐⭐
 - **Intermezzo** by Sally Rooney
 - **The City & The City** by China Miéville
 - **The Tainted Cup (Shadow of the Leviathan #1)** by Robert Jackson Bennett — ⭐⭐⭐⭐⭐
 - **The Ministry of Time** by Kaliane Bradley — ⭐⭐⭐⭐⭐
 - **Kitty Cat Kill Sat: A Feline Space Adventure** by Argus .
-- **System Collapse (The Murderbot Diaries, #7)** by Martha Wells
+- **System Collapse (The Murderbot Diaries, #7)** by Martha Wells — ⭐⭐⭐⭐⭐
 - **Before They Told You You Weren’t Enough: You Were Born Whole. Then The World Made You Forget. This Book Helps You Remember.** by VIKAS KAUSHIK
 - **The Empusium: A Health Resort Horror Story** by Olga Tokarczuk
 - **Dragon Teeth** by Michael Crichton
@@ -97,4 +97,4 @@
 - **The Bourne Identity (Jason Bourne, #1)** by Robert Ludlum — ⭐⭐⭐⭐⭐
 - **The Da Vinci Code (Robert Langdon, #2)** by Dan    Brown — ⭐⭐⭐⭐
 - **A Tale of Two Cities** by Charles Dickens — ⭐⭐⭐⭐
-- **Alien Clay** by Adrian Tchaikovsky
+- **Alien Clay** by Adrian Tchaikovsky — ⭐⭐⭐⭐⭐

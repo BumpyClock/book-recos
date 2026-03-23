@@ -2,6 +2,22 @@
 
 **Read this file before searching for book candidates.** These are the curated award lists, search strategies, and discovery channels used to find recommendations. This is a living document — refine it with the user over time.
 
+## Filtering Rules
+
+**Hard pass if the book has:**
+- Widely noted flat or underdeveloped characters
+- Sexist tropes or bigoted framing
+- Reviews calling it derivative or unoriginal
+- No tension or stakes
+
+**Prioritize books that have:**
+- Strong character voices with wit/humor
+- World-building that serves the story
+- Genre-bending elements (mystery + sci-fi, literary + speculative)
+- South Asian authors or themes
+- Series potential (user loves to binge)
+- Emotional depth alongside plot momentum
+
 ---
 
 ## Award Lists to Search (Starting Points)

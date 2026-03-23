@@ -1,7 +1,8 @@
 # Reading Profile
 
 ## Core Identity
-- **Omnivorous reader** — even mix of literary fiction and genre fiction
+- **Sci-fi backbone, actively broadening** — sci-fi is home base but actively seeking more literary fiction and diverse genres
+- **Quality-driven** — goes where strong recommendations lead; genre doesn't drive the choice, quality does
 - **Series lover** — prefers series to binge, the longer the better
 - **Wit matters** — a funny, distinctive narrative voice can make or break a book
 - Reads on **Kindle/ebook and physical books** (no audiobooks)
@@ -9,10 +10,14 @@
 ## Sci-Fi Preferences (Primary Genre)
 - Loves ALL dimensions: characters, world-building, plot/pacing, and big ideas
 - Emotional depth and character building are key — not just spectacle
+- **Literary quality > raw thriller pacing** — prefers better writing, tighter plots, and deeper characters over pure action (Alien Clay > Parasitology)
+- **Moral complexity and worldview-deconstruction** — loves protagonists who start wrong and evolve (Some Desperate Glory)
 - **Cozy/hopeful sci-fi** (Wayfarers) actively sought out alongside harder stuff (Expanse, Three-Body)
 - **Mystery + speculative fiction mashups** are a sweet spot (Tainted Cup, Drop of Corruption)
+- **Meta-humor works** but the premise must earn its keep; derivative setups are a drag even in comedy (Redshirts: fun but could be better)
 - Can handle **dark/bleak** tones if the writing is good (The Road, World War Z)
-- 5-star sci-fi: Expanse series, Murderbot series, Bobiverse, Wayfarers, Three-Body Problem, The Martian, Ender's Game, Ministry of Time, Tainted Cup/Drop of Corruption
+- **Murderbot loyalist** — the voice never gets old across 7 books; consistent 5★
+- 5-star sci-fi: Expanse series, Murderbot series, Bobiverse, Wayfarers, Three-Body Problem, The Martian, Ender's Game, Ministry of Time, Tainted Cup/Drop of Corruption, Alien Clay, Some Desperate Glory
 
 ## Literary Fiction Preferences
 - Loves **multi-generational sweeping epics** (Covenant of Water)

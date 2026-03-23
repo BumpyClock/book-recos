@@ -2,8 +2,8 @@
   "mcpServers": {
     "playwriter": {
       "type": "stdio",
-      "command": "bunx",
-      "args": ["playwriter@latest"],
+      "command": "npx",
+      "args": ["-y", "playwriter@latest"],
       "env": { "PLAYWRITER_AUTO_ENABLE": "1" }
     }
   }

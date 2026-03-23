@@ -1,0 +1,6 @@
+- Create a script for the website that the user provided like the reference scripts like `kcls.ts` , `libby.ts`. 
+- Explore the website to understand what core tasks are possible. 
+- Ask the user what core tasks they would like to include. 
+- Maintain the cli ergonomics of those scripts.
+- test the skill.
+- Update .env and .env.example as needed.

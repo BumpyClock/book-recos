@@ -1,0 +1,2 @@
+- Clear out reading-history.md , reading-profile.md, and recommendations.md to set this up for a new user. 
+- Ask the user for confirmation before doing this.
